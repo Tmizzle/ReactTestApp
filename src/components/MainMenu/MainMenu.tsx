@@ -1,4 +1,5 @@
 import React from 'react';
+import './MainMenu.css';
 import { Container, Nav } from 'react-bootstrap';
 import { HashRouter, Link } from 'react-router-dom';
 
@@ -50,8 +51,10 @@ export class MainMenu extends React.Component<MainMenuProperties> {
     }
     private makeNavLink(item: MainMenuItem) {
         return (
+            <div className='items'>
             <Link to={ item.link } className="nav-link"> { item.text }
             </Link>
+            </div>
         );
     }
 }

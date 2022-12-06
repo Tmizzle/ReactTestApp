@@ -1,0 +1,22 @@
+.items{
+    position: relative;
+    left: 1000px;
+    margin: 10px 20px 10px 20px;
+    border-radius: 20px;
+    width: 130px;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.items:hover{
+    border-color: #ffffff;
+    background-color: #818182;
+    border: 0px;
+}
+
+.nav-link:hover{
+    border: none;
+}
+.nav-link{
+    color:white;
+}
